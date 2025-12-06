@@ -222,13 +222,11 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
 }
 
 #promotion>img{
     height: 500px;
     width: 1550px;
-    max-width: 100%;
 }
 
 .banner-nav{
