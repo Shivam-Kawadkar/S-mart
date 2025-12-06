@@ -27,8 +27,8 @@
             </div>
 
             <div class="search">
-                <input type="search" placeholder=" Search for Products,Brands and More">
-                <button>Search</button>
+            <input id="searchbox" type="text" placeholder=" Search for Products,Brands and More"  onclick="OpenProductPage()" onkeyup="search()">
+           <button id="btn-products">Search</button>
             </div>
 
             <div class="signin">
@@ -166,7 +166,7 @@
         <div id="promotion">
             <img src="Assets/webgro.png">
         </div>
-        <div class="products">
+        <div class="products" id="products">
 
             <div class="pro-card">
                 <img src="Assets/pro1.png">
@@ -203,9 +203,6 @@
                 <a href="#"><button class="pro-btn"><i class="fa-solid fa-circle-plus"></i> Add To Cart</button></a>
             </div>
 
-        </div>
-
-        <div class="products">
             <div class="pro-card">
                 <img src="Assets/pro6.png">
                 <p>Mattel UNO Card Game</p>
@@ -240,8 +237,6 @@
                 <p style="padding-bottom: 10px;">₹20,999.00</p>
                 <a href="#"><button class="pro-btn"><i class="fa-solid fa-circle-plus"></i> Add To Cart</button></a>
             </div>
-        </div>
-        <div class="products">
 
             <div class="pro-card">
                 <img src="Assets/pro1.png">
@@ -277,10 +272,6 @@
                 <p style="padding-bottom: 10px;">₹499.00</p>
                 <a href="#"><button class="pro-btn"><i class="fa-solid fa-circle-plus"></i> Add To Cart</button></a>
             </div>
-
-        </div>
-
-        <div class="products">
             <div class="pro-card">
                 <img src="Assets/pro6.png">
                 <p>Mattel UNO Card Game</p>
@@ -373,5 +364,6 @@
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
 </body>
 </html>

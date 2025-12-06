@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Outfit", sans-serif;
 }
 
-.navbar{
+.navbar {
     background: rgb(30, 32, 34);
     height: 70px;
     width: 100%;
@@ -12,18 +12,18 @@
     gap: 20px;
 }
 
-@media (max-width: 599px){
-    .navbar{
-        width:1550px;
+@media (max-width: 599px) {
+    .navbar {
+        width: 1550px;
     }
 }
 
-.logo img{
+.logo img {
     height: 70px;
     width: 130px;
 }
 
-.loc{
+.loc {
     margin: 10px;
     height: 50px;
     width: 150px;
@@ -34,25 +34,28 @@
     align-items: center;
     color: #ffffff;
 }
-.loc:hover{
+
+.loc:hover {
     background: rgb(82, 97, 107);
     color: rgb(240, 245, 249);
 }
-.pin{
+
+.pin {
     display: flex;
     align-items: center;
     padding-left: 15px;
     color: #ffffff;
 
 }
-.city{
+
+.city {
     text-align: center;
     padding-left: 20px;
     color: #ffffff;
 
 }
 
-.delivery{
+.delivery {
     margin: 15px;
     padding: 5px;
     display: flex;
@@ -62,31 +65,32 @@
     border-radius: 5px;
     color: #ffffff;
 }
-.delivery:hover{
+
+.delivery:hover {
     background: rgb(82, 97, 107);
     color: rgb(240, 245, 249);
 }
 
-.search{
+.search {
     display: flex;
     align-items: center;
     margin: 10px;
 }
 
-input{
+input {
     height: 40px;
     width: 400px;
     font-size: 17px;
     padding-left: 5px;
-    border: none;    
+    border: none;
 }
 
 input:focus {
-  outline: none;
+    outline: none;
 }
 
 
-button{
+button {
     height: 40px;
     width: 100px;
     font-size: 17px;
@@ -97,13 +101,13 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background: rgb(201, 214, 223);
     color: rgb(30, 32, 34);
-    box-shadow: 0px 4px 8px rgb(0,0,0,0.3);
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.3);
 }
 
-.signin{
+.signin {
     display: flex;
     margin: 10px;
     padding: 5px;
@@ -111,69 +115,69 @@ button:hover{
     color: #ffffff;
 }
 
-.signin>a>i{
+.signin>a>i {
     font-size: 20px;
     margin-right: 5px;
     color: rgb(240, 245, 249);
 }
 
-.signin:hover{
+.signin:hover {
     border-radius: 10px;
     padding: 5px;
     background: rgb(82, 97, 107);
     color: rgb(240, 245, 249);
 }
 
-.signin>a>i:hover{
+.signin>a>i:hover {
     color: rgb(255, 255, 255);
 }
 
-.notification{
+.notification {
     display: flex;
     align-items: center;
     margin: 10px;
     padding: 10px;
 }
 
-.notification:hover{
+.notification:hover {
     border-radius: 50%;
     background: rgb(82, 97, 107);
     color: rgb(30, 32, 34);
 }
 
-.cart{
+.cart {
     display: flex;
     align-items: center;
     margin: 10px;
     padding: 10px;
 }
 
-.cart:hover{
+.cart:hover {
     border-radius: 50%;
     padding: 10px;
     background: rgb(82, 97, 107);
     color: rgb(240, 245, 249);
 }
 
-.notification>a>i{
+.notification>a>i {
     font-size: 20px;
     color: rgb(240, 245, 249);
 }
 
-.notification>a>i:hover{
+.notification>a>i:hover {
     color: rgb(255, 255, 255);
 }
 
-.cart>a>i{
+.cart>a>i {
     font-size: 20px;
     color: rgb(240, 245, 249);
 }
 
-.cart>a>i:hover{
+.cart>a>i:hover {
     color: rgb(255, 255, 255);
 }
 
-#pannel{
+#pannel {
     background: rgb(240, 245, 249);
     height: 150px;
     margin: 10px;
@@ -181,41 +185,46 @@ button:hover{
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    box-shadow: 0px 2px 4px rgb(0,0,0,0.4);
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
 }
 
-@media (max-width: 599px){
-    #pannel{
+@media (max-width: 599px) {
+    #pannel {
         width: 1510px;
     }
 }
 
+#pannel>a>img {
+    height: 100px;
+    width: 100px;
+}
 
-
-.category{
+.category {
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin-left: 10px;
+    border: 2px solid rgb(82, 97, 107);
 }
 
-.category:hover{
-    transform:scale(1.1);
+.category:hover {
+    transform: scale(1.1);
 }
 
-.cimg{
+.cimg {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-.cimg p{
+.cimg p {
     margin-left: 10px;
     color: rgb(30, 32, 34);
 }
 
-#promotion{
+#promotion {
     background: rgb(201, 214, 223);
     height: 500px;
     margin: 10px auto;
@@ -224,12 +233,12 @@ button:hover{
     align-items: center;
 }
 
-#promotion>img{
+#promotion>img {
     height: 500px;
     width: 1550px;
 }
 
-.banner-nav{
+.banner-nav {
     background-color: rgb(82, 97, 107);
     border: none;
     color: rgb(240, 245, 249);
@@ -242,23 +251,23 @@ button:hover{
     transition: all 0.3s ease;
 }
 
-.banner-nav:hover{
+.banner-nav:hover {
     background-color: rgb(201, 214, 223);
     transform: scale(1.1);
 }
 
-@media (max-width: 599px){
-    #promotion{
-        width:1530px;
+@media (max-width: 599px) {
+    #promotion {
+        width: 1530px;
     }
 }
 
-#topdeal{
+#topdeal {
     display: flex;
     justify-content: space-evenly;
 }
 
-.block{
+.block {
     background: rgb(82, 97, 107);
     height: 300px;
     width: 450px;
@@ -270,74 +279,83 @@ button:hover{
     color: rgb(240, 245, 249);
 }
 
-.row{
+.row {
     padding-left: 10px;
     display: flex;
 }
 
-.column{
+.column {
     padding-left: 10px;
     display: flex;
 }
 
-.row>a>img{
+.row>a>img {
     height: 130px;
     width: 200px;
     margin: 5px;
+    object-fit: cover;
 }
 
-.row>a>img:hover{
+.row>a>img:hover {
     transform: scale(1.1);
-    box-shadow: 0 5px 9px rgb(0,0,0,0.4);
+    box-shadow: 0 5px 9px rgb(0, 0, 0, 0.4);
+    object-fit: cover;
 }
 
-.column>a>img{
+.column>a>img {
     height: 130px;
     width: 200px;
     margin: 5px;
+    object-fit: cover;
 }
 
-.column>a>img:hover{
+.column>a>img:hover {
     transform: scale(1.1);
-    box-shadow: 0 5px 9px rgb(0,0,0,0.4);
+    box-shadow: 0 5px 9px rgb(0, 0, 0, 0.4);
+    object-fit: cover;
 }
 
-@media (max-width: 599px){
-    .block{
+@media (max-width: 599px) {
+    .block {
         margin: 25px;
     }
 }
 
-.products{
+.products {
     display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
     justify-content: space-evenly;
 }
 
-.pro-card{
+.pro-card {
     background: rgb(240, 245, 249);
     height: 350px;
     width: 250px;
     margin: 10px;
-    box-shadow: 3px 4px 6px rgb(0,0,0,0.4);
+    box-shadow: 3px 4px 6px rgb(0, 0, 0, 0.4);
+    border: 2px solid rgb(82, 97, 107);
     border-radius: 20px;
-    
+
 }
 
-.pro-card>img{
+.pro-card>img {
     margin: 24px 24px 0 24px;
     height: 200px;
     width: 200px;
     border-radius: 20px;
-
+    object-fit: cover;
+    border: 2px solid rgb(82, 97, 107);
 }
 
-.pro-card>p{
+.pro-card>p {
     font-size: 15px;
     margin-left: 24px;
     color: rgb(30, 32, 34);
+    object-fit: cover;
 }
 
-.pro-card>a>button{
+.pro-card>a>button {
     width: 200px;
     margin-left: 24px;
     background: rgb(82, 97, 107);
@@ -346,22 +364,23 @@ button:hover{
     border-radius: 40px;
     cursor: pointer;
     border: none;
+    border: 2px solid rgb(82, 97, 107);
 }
 
-.pro-card>a>button:hover{
-    transform: scale(1.1);
-    box-shadow: 0 5px 9px rgb(0,0,0,0.4);
+.pro-card>a>button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 9px rgb(0, 0, 0, 0.4);
     background: rgb(201, 214, 223);
     color: rgb(30, 32, 34);
 }
 
-@media (max-width: 599px){
-    .pro-card{
-        margin: 30px;
+@media (max-width: 599px) {
+    .products {
+        width: 1550px;
     }
 }
 
-#footer{
+#footer {
     background-color: black;
     margin-top: 10px;
     height: 400px;
@@ -369,7 +388,7 @@ button:hover{
     display: flex;
 }
 
-.foot1{
+.foot1 {
     margin: 10px;
     padding: 30px;
     color: white;
@@ -378,46 +397,49 @@ button:hover{
     border-right: 2px solid white;
 }
 
-.foot1>p,pre{
+.foot1>p,
+pre {
     padding-top: 20px;
     padding-left: 10px;
 }
 
 
-.foot1>input{
+.foot1>input {
     margin: 5px 0 5px 5px;
     width: 280px;
     border-radius: 10px 0 0 10px;
 }
 
-.foot1>button{
+.foot1>button {
     margin: 0;
     background-color: white;
     color: black;
     height: 43.2px;
     border-radius: 0 10px 10px 0;
 }
-.foot1>button:hover{
+
+.foot1>button:hover {
     background-color: rgb(30, 32, 34);
     color: white;
-    box-shadow: 0px 4px 8px rgb(0,0,0,0.3);
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.3);
 }
 
-.smlogo{
+.smlogo {
     display: flex;
     gap: 20px;
     font-size: 25px;
     margin: 10px;
 }
 
-.smlogo>a>i{
+.smlogo>a>i {
     color: white;
 }
-.smlogo>a>i:hover{
+
+.smlogo>a>i:hover {
     color: rgb(30, 32, 34);
 }
 
-.foot2{
+.foot2 {
     color: white;
     height: 360px;
     padding-left: 40px;
@@ -427,32 +449,32 @@ button:hover{
     gap: 90px;
 }
 
-.link1 > p>a{
+.link1>p>a {
     text-decoration: none;
     color: white;
     line-height: 35px;
 }
 
-.link2 > p>a{
+.link2>p>a {
     text-decoration: none;
     color: white;
     line-height: 35px;
 }
 
-.link3 > p>a{
+.link3>p>a {
     text-decoration: none;
     color: white;
     line-height: 35px;
 }
-.link1 > p>a:hover,
-.link2 > p>a:hover,
-.link3 > p>a:hover{
+
+.link1>p>a:hover,
+.link2>p>a:hover,
+.link3>p>a:hover {
     color: rgb(30, 32, 34);
 }
 
-@media (max-width: 599px){
-    #footer{
+@media (max-width: 599px) {
+    #footer {
         width: 1550px;
     }
 }
-
