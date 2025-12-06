@@ -385,6 +385,7 @@ button:hover{
     padding-left: 10px;
 }
 
+
 .foot1>input{
     margin: 5px 0 5px 5px;
     width: 280px;
@@ -398,6 +399,11 @@ button:hover{
     height: 43.2px;
     border-radius: 0 10px 10px 0;
 }
+.foot1>button:hover{
+    background-color: rgb(30, 32, 34);
+    color: white;
+    box-shadow: 0px 4px 8px rgb(0,0,0,0.3);
+}
 
 .smlogo{
     display: flex;
@@ -408,6 +414,9 @@ button:hover{
 
 .smlogo>a>i{
     color: white;
+}
+.smlogo>a>i:hover{
+    color: rgb(30, 32, 34);
 }
 
 .foot2{
@@ -436,6 +445,11 @@ button:hover{
     text-decoration: none;
     color: white;
     line-height: 35px;
+}
+.link1 > p>a:hover,
+.link2 > p>a:hover,
+.link3 > p>a:hover{
+    color: rgb(30, 32, 34);
 }
 
 @media (max-width: 599px){
