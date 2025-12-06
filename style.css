@@ -217,7 +217,7 @@ button:hover{
 
 #promotion{
     background: rgb(201, 214, 223);
-    height: 400px;
+    height: 500px;
     margin: 10px auto;
     display: flex;
     justify-content: center;
@@ -226,7 +226,7 @@ button:hover{
 }
 
 #promotion>img{
-    height: 400px;
+    height: 500px;
     width: 1550px;
     max-width: 100%;
 }
