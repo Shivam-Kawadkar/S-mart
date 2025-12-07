@@ -272,6 +272,7 @@ button:hover {
 }
 
 #topdeal {
+    width: 1500px;
     padding: 10px;
     font-size: 20px;
     color: rgb(30, 32, 34);
