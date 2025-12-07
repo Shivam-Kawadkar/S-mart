@@ -52,6 +52,7 @@
     text-align: center;
     padding-left: 20px;
     color: #ffffff;
+    cursor: pointer;
 
 }
 
@@ -64,6 +65,7 @@
     justify-content: center;
     border-radius: 5px;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .delivery:hover {
@@ -113,6 +115,7 @@ button:hover {
     padding: 5px;
     align-items: center;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .signin>a>i {
@@ -205,18 +208,19 @@ button:hover {
     width: 100px;
     border-radius: 50%;
     margin-left: 10px;
-    border: 2px solid rgb(82, 97, 107);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
 }
 
 .category:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .cimg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .cimg p {
@@ -265,6 +269,7 @@ button:hover {
 #topdeal {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
 .block {
@@ -277,6 +282,7 @@ button:hover {
     justify-content: center;
     padding: 20px;
     color: rgb(240, 245, 249);
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
 }
 
 .row {
@@ -294,6 +300,9 @@ button:hover {
     width: 200px;
     margin: 5px;
     object-fit: cover;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
+    border: #ffffff 2px solid;
+
 }
 
 .row>a>img:hover {
@@ -307,6 +316,8 @@ button:hover {
     width: 200px;
     margin: 5px;
     object-fit: cover;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.4);
+    border: #ffffff 2px solid;
 }
 
 .column>a>img:hover {
@@ -336,7 +347,12 @@ button:hover {
     box-shadow: 3px 4px 6px rgb(0, 0, 0, 0.4);
     border: 2px solid rgb(82, 97, 107);
     border-radius: 20px;
+    padding: 10px;
+}
 
+.pro-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 9px rgb(0, 0, 0, 0.4);
 }
 
 .pro-card>img {
@@ -345,13 +361,21 @@ button:hover {
     width: 200px;
     border-radius: 20px;
     object-fit: cover;
-    border: 2px solid rgb(82, 97, 107);
+    border: 1px solid rgb(82, 97, 107);
 }
+
 
 .pro-card>p {
     font-size: 15px;
     margin-left: 24px;
     color: rgb(30, 32, 34);
+    object-fit: cover;
+}
+
+.pro-card>h3 {
+    font-size: 18px;
+    margin-left: 24px;
+    color: rgb(82, 97, 107);
     object-fit: cover;
 }
 
