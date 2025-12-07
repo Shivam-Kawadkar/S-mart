@@ -272,15 +272,13 @@ button:hover {
 }
 
 #topdeal {
-    height:fit-content;
-    margin: 20px;
     padding: 10px;
     font-size: 20px;
     color: rgb(30, 32, 34);
+    background-color:rgb(240, 245, 249);
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    color:rgb(240, 245, 249);
+    flex-direction:row;
+    justify-content:center;
 }
 
 .block {
