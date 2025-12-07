@@ -272,16 +272,15 @@ button:hover {
 }
 
 #topdeal {
+    height:fit-content;
     margin: 20px;
     padding: 10px;
     font-size: 20px;
     color: rgb(30, 32, 34);
-    font-weight: bold;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: wrap; 
+    justify-content: center;
+    color:rgb(240, 245, 249);
 }
 
 .block {
@@ -300,13 +299,11 @@ button:hover {
 .row {
     padding-left: 10px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .column {
     padding-left: 10px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .row>a>img {
